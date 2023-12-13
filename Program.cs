@@ -36,6 +36,9 @@ namespace SydneyCoffee
 
             Charge = (Reseller.ToLower() == "yes") ? price * 0.8 : price;
         }
+        public void printData() {
+            Console.Write("Data");
+        }
     }
 
     class CoffeeShop
